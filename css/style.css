@@ -1,0 +1,464 @@
+#Madagascar,
+#mali,
+#Armenia,
+#Mauritius,
+#Austria,
+#Monaco,
+#Bangaldesh,
+#Benin,
+#Botswana,
+#Niger,
+#Tonga,
+#Belgium,
+#Bulgaria,
+#Nigeria,
+#Norway,
+#Palau,
+#Denmark,
+#Finland,
+#Georgia{
+    height: 200px;
+    width: 350px;
+    border: 1px solid rgb(231, 227, 227);
+    background: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    position: relative;
+}
+#Madagascar .div1{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+}
+#Madagascar .div2{
+    width: 65%;
+    height: 50%;
+    background: #ff6600;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#Madagascar .div3{
+    width: 65%;
+    height: 50%;
+    background: #03a003;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* #Madagascar .div4{
+    width: 10px;
+    height: 200px;
+    background: #ebb541;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+#Madagascar .div5{
+    width: 50px;
+    height: 20px;
+    background: #6b4d0c;
+    position: absolute;
+    top: 200%;
+    left: -20px;
+} */
+
+/* 2nd flag */
+#mali .div1{
+    width: 33.33%;
+    height: 100%;
+    background: #03a003;
+    position: absolute;
+}
+#mali .div2{
+    width: 33.33%;
+    height: 100%;
+    background: #f7fc00;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#mali .div3{
+    width: 33.33%;
+    height: 100%;
+    background: #ff6600;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 3rd flag */
+#Armenia .div1{
+    width: 100%;
+    height: 33.33%;
+    background: rgb(221, 66, 5);
+}
+#Armenia .div2{
+    width: 100%;
+    height: 33.33%;
+    background: rgb(1, 68, 156);
+}
+#Armenia .div3{
+    width: 100%;
+    height: 33.33%;
+    background: rgb(252, 128, 79);
+}
+
+/* 4th flag */
+#Mauritius .div1{
+    width: 100%;
+    height: 25%;
+    background: #df0303;
+}
+#Mauritius .div2{
+    width: 100%;
+    height: 25%;
+    background: #0031b9;
+}
+#Mauritius .div3{
+    width: 100%;
+    height: 25%;
+    background: #ffe139;
+}
+#Mauritius .div4{
+    width: 100%;
+    height: 25%;
+    background: #39b400;
+}
+
+/* 5th flag */
+#Austria .div1{
+    width: 100%;
+    height: 33.33%;
+    background: #e62f2f;
+}
+#Austria .div2{
+    width: 100%;
+    height: 33.33%;
+    background: #ffffff;
+}
+#Austria .div3{
+    width: 100%;
+    height: 33.33%;
+    background: #e62f2f;
+}
+
+/* 6th flag */
+#Monaco .div1{
+    width: 100%;
+    height: 50%;
+    background: #e62f2f;
+}
+#Monaco .div2{
+    width: 100%;
+    height: 50%;
+    background: #fcf6f6;
+}
+
+/* 7th flag */
+#Bangaldesh{
+    background: #157e00ef;
+    position: relative;
+}
+#Bangaldesh .div1{
+    width: 120px;
+    height: 120px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+/* 8th flag */
+#Benin{
+    position: relative;
+}
+#Benin .div1{
+    width: 35%;
+    height: 100%;
+    background: #0e9701da;
+}
+#Benin .div2{
+    width: 65%;
+    height: 50%;
+    background: #fff45dda;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#Benin .div3{
+    width: 65%;
+    height: 50%;
+    background: #f30d05da;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 9th flag */
+#Botswana{
+    position: relative;
+}
+#Botswana .div1{
+    width: 100%;
+    height: 35%;
+    background: #72aca9;
+}
+#Botswana .div2{
+    width: 100%;
+    height: 30%;
+    background: #ffffff;
+}
+#Botswana .div3{
+    width: 100%;
+    height: 20%;
+    background: #030303;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+#Botswana .div4{
+    width: 100%;
+    height: 35%;
+    background: #72aca9;
+}
+
+/* 10th flag */
+#Niger{
+    position: relative;
+}
+#Niger .div1{
+    width: 100%;
+    height: 33.33%;
+    background: #f39202;
+}
+#Niger .div2{
+    width: 100%;
+    height: 33.33%;
+    background: #ffffff;
+}
+#Niger .div3{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #f39202;
+    position: absolute;
+    top: 100px;
+    left: 175px;
+    transform: translate(-25px, -25px);
+}
+#Niger .div4{
+    width: 100%;
+    height: 33.33%;
+    background: #009400;
+}
+
+/* 11th flag */
+#Tonga{
+    background: #c01111;
+}
+#Tonga .div1{
+    width: 140px;
+    height: 100px;
+    background: #ffffff;
+    position: relative;
+}
+#Tonga .div1 .child{
+    width: 70px;
+    height: 20px;
+    background: #c01111;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-25%, -25%);
+}
+#Tonga .div1 .child1{
+    width: 50%;
+    height: 20%;
+    background: #c01111;
+    rotate: 90deg;
+    position: absolute;
+    left: 33px;
+    top: 38px;
+}
+
+/* 12th flag */
+#Belgium{
+    display: flex;
+}
+#Belgium .div1{
+    width: 33.33%;
+    height: 100%;
+    background: #000;
+}
+#Belgium .div2{
+    width: 33.33%;
+    height: 100%;
+    background: #ffda08;
+}
+#Belgium .div3{
+    width: 33.33%;
+    height: 100%;
+    background: #ee2828;
+}
+
+/* 13th flag */
+#Bulgaria .div1{
+    width: 100%;
+    height: 33.33%;
+    background: #f5f3f3;
+}
+#Bulgaria .div2{
+    width: 100%;
+    height: 33.33%;
+    background: #206b1a;
+}
+#Bulgaria .div3{
+    width: 100%;
+    height: 33.33%;
+    background: #f11111;
+}
+
+/* 14th flag */
+#Nigeria{
+    display: flex;
+}
+#Nigeria .div1{
+    width: 33.33%;
+    height: 100%;
+    background: #1f852d;
+}
+#Nigeria .div2{
+    width: 33.33%;
+    height: 100%;
+    background: #ffffff;
+}
+#Nigeria .div3{
+    width: 33.33%;
+    height: 100%;
+    background: #1f852d;
+}
+
+/* 15th flag */
+#Norway{
+    background: #c91414;
+    position: relative;
+}
+#Norway .div1{
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+#Norway .div2{
+    width: 50px;
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+#Norway .div3{
+    width: 100%;
+    height: 30px;
+    background: #000d86;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+#Norway .div5{
+    width: 30px;
+    height: 100%;
+    background: #000d86;
+    position: absolute;
+    top: 0;
+    left: 33%;
+}
+
+/* 16th flag */
+#Palau{
+    background: #1fd1c8ef;
+    position: relative;
+}
+#Palau .div1{
+    width: 120px;
+    height: 120px;
+    background: rgb(243, 231, 63);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+/* 17th flag */
+#Denmark{
+    background: #c91616;
+    position: relative;
+}
+#Denmark .div1{
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+#Denmark .div2{
+    width: 40px;
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+
+/* 18th flag */
+#Finland{
+    background: #ffffff;
+    position: relative;
+}
+#Finland .div1{
+    width: 100%;
+    height: 60px;
+    background: #006aa7;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+#Finland .div2{
+    width: 60px;
+    height: 100%;
+    background: #006aa7;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+
+/* 19th flag */
+#Georgia{
+    background: #ffffff;
+    position: relative;
+}
+#Georgia .div1{
+    width: 100%;
+    height: 40px;
+    background: #f80909;
+    position: relative;
+    top: 38%;
+    left: 0;
+}
+#Georgia .div2{
+    width: 40px;
+    height: 100%;
+    background: #f80909;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+#Georgia .div3{
+    position: relative;
+}
